@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "---------------------------------------"
+sudo mkdir /home/pap1 /home/pap2 /home/pap3 /home/pap4 /home/pap5 /home/pap6 /home/pap7 /home/pap8 /home/pap9 /home/pap10
+
+if [[ $HOME/pap1 && $HOME/pap2 && $HOME/pap3 && $HOME/pap4 && $HOME/pap5 && $HOME/pap6 && $HOME/pap7 && $HOME/pap8 && $HOME/pap9 && $HOME/pap10 ]]
+then 
+echo "script done :)"
+else
+echo "eror"
+fi
+echo "---------------------------------------"
